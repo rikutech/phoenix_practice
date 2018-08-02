@@ -14,4 +14,5 @@ RUN apk update && \
     git \
     nodejs \
     nodejs-npm \
+    inotify-tools \
     && rm -rf /var/cache/apk/*

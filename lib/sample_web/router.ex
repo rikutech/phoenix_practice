@@ -17,6 +17,7 @@ defmodule SampleWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/hello", HelloController, :world
     resources "/users", UserController
   end
 
